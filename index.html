@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prem Jha | Aspiring Cloud & DevOps Engineer</title>
+    <meta name="description" content="Portfolio of Prem Jha, a B.Tech CSE student at Dayananda Sagar University specializing in AWS, Cloud Computing, and DevOps engineering.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Prem<span>.Jha</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content scroll-reveal">
+            <h1>Hi, I'm <span class="highlight">Prem Jha</span></h1>
+            <h2>Aspiring Cloud & DevOps Engineer</h2>
+            <p>I build scalable, secure, and automated cloud infrastructure solutions. Currently deep-diving into the AWS ecosystem to transform code into highly available architectures.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">About Me</h2>
+            <div class="about-grid scroll-reveal">
+                <div class="about-text">
+                    <p>I am a <strong>B.Tech CSE student at Dayananda Sagar University</strong> with a laser-focused passion for AWS Cloud, DevOps, and Infrastructure as Code.</p>
+                    <p>Through hands-on projects, I am consistently learning how to architect highly available systems, automate deployment pipelines, and optimize cloud spend.</p>
+                    <p class="seeking-tag"><i class="fas fa-search-location"></i> Actively seeking internship opportunities in Cloud Computing and DevOps roles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section global-bg-light">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-card scroll-reveal">
+                    <i class="fab fa-aws skill-icon aws-color"></i>
+                    <h3>AWS Infrastructure</h3>
+                    <p>EC2, S3, IAM, VPC, CloudFront</p>
+                </div>
+                <div class="skill-card scroll-reveal">
+                    <i class="fab fa-jenkins skill-icon devops-color"></i>
+                    <h3>CI/CD & Automation</h3>
+                    <p>Jenkins, Git, GitHub Actions</p>
+                </div>
+                <div class="skill-card scroll-reveal">
+                    <i class="fab fa-linux skill-icon OS-color"></i>
+                    <h3>Systems & Networks</h3>
+                    <p>Linux Architecture, Core Networking</p>
+                </div>
+                <div class="skill-card scroll-reveal">
+                    <i class="fab fa-js-square skill-icon web-color"></i>
+                    <h3>Web Technologies</h3>
+                    <p>HTML5, CSS3, Modern JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card scroll-reveal">
+                    <div class="project-content">
+                        <h3>Static Website Hosting on AWS</h3>
+                        <p>Deployed a highly secure and fast portfolio website utilizing S3 for object storage, CloudFront for global content delivery, and Route 53 for DNS management.</p>
+                        <div class="tags">
+                            <span>AWS S3</span>
+                            <span>CloudFront</span>
+                            <span>Route 53</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card scroll-reveal">
+                    <div class="project-content">
+                        <h3>CI/CD Pipeline using GitHub & Jenkins</h3>
+                        <p>Automated a deployment pipeline from GitHub push events triggering Jenkins multi-branch jobs to deploy code onto AWS EC2 Linux instances.</p>
+                        <div class="tags">
+                            <span>Jenkins</span>
+                            <span>GitHub</span>
+                            <span>EC2</span>
+                            <span>Linux</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card scroll-reveal">
+                    <div class="project-content">
+                        <h3>Three-Tier Web Application on AWS</h3>
+                        <p>Architected a highly available 3-tier system utilizing ALB, Auto-Scaling Groups, EC2 application layers, and an isolated Amazon RDS Multi-AZ database cluster.</p>
+                        <div class="tags">
+                            <span>VPC</span>
+                            <span>ALB</span>
+                            <span>RDS</span>
+                            <span>Auto-Scaling</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card scroll-reveal">
+                    <div class="project-content">
+                        <h3>Serverless Web Application</h3>
+                        <p>Built an asynchronous application processing stack leveraging AWS Lambda functions triggered by S3 events, storing metadata directly into DynamoDB tables.</p>
+                        <div class="tags">
+                            <span>AWS Lambda</span>
+                            <span>DynamoDB</span>
+                            <span>API Gateway</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card scroll-reveal">
+                    <div class="project-content">
+                        <h3>AI Project via Amazon SageMaker</h3>
+                        <p>Configured an end-to-end Machine Learning inference workspace pipeline using Amazon SageMaker instances to train and expose predictive models via API endpoints.</p>
+                        <div class="tags">
+                            <span>SageMaker</span>
+                            <span>Python</span>
+                            <span>IAM</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications section global-bg-light">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Certifications</h2>
+            <div class="cert-card scroll-reveal pending">
+                <i class="fas fa-graduation-cap cert-icon"></i>
+                <div class="cert-info">
+                    <h3>AWS Certified Cloud Practitioner</h3>
+                    <p class="status-badge">In Progress / Coming Soon</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Get In Touch</h2>
+            <div class="contact-grid scroll-reveal">
+                <div class="contact-info">
+                    <h3>Let's collaborate</h3>
+                    <p>Whether you have an internship opening, a project idea, or just want to chat about Cloud Architecture, feel free to drop a message!</p>
+                    <div class="contact-links">
+                        <a href="mailto:prem.jha@example.com"><i class="fas fa-envelope"></i> prem.jha@example.com</a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
+                        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub Profile</a>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Prem Jha. All Rights Reserved.</p>
+            <p class="tech-stack-credit">Built with HTML5, CSS3, & Modern JavaScript</p>
+            <div class="footer-socials">
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTop" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>

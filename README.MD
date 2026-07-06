@@ -27,5 +27,5 @@ Developer (VS Code)
 - Git & GitHub
 - HTML, CSS, JavaScript
 
- Author
+## Author
 Prem Jha

@@ -28,4 +28,4 @@ Developer (VS Code)
 - HTML, CSS, JavaScript
 
 ## Author
-**Prem Jha**git piu
+Prem Jha

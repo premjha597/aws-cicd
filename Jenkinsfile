@@ -8,9 +8,11 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('Deploy') {
             steps {
-                echo 'Build Successful!'
+                sh '''
+                sudo cp -r * /var/www/html/
+                '''
             }
         }
     }

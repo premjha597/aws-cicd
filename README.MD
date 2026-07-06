@@ -1,41 +1,31 @@
-# AWS Static Website Hosting with Amazon S3 & CloudFront
+# AWS CI/CD Pipeline with Jenkins
 
-Deployed a responsive portfolio website on AWS using Amazon S3 for static website hosting and Amazon CloudFront as a Content Delivery Network (CDN) for fast and secure content delivery.
+A simple CI/CD pipeline using Jenkins on AWS EC2 to automatically build and deploy code from a GitHub repository.
 
-## Tech Stack
-
-- Amazon S3
-- Amazon CloudFront
-- HTML
-- CSS
-- JavaScript
-
-## Key Highlights
-
-- Hosted a static website on Amazon S3
-- Configured Bucket Policy for public access
-- Enabled Static Website Hosting
-- Deployed through Amazon CloudFront
-- Configured Default Root Object (`index.html`)
-
-## Project Structure
+## Architecture
 
 ```
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+Developer (VS Code)
+        │
+    git push
+        │
+        ▼
+     GitHub Repo
+        │
+        ▼
+ Jenkins (AWS EC2)
+        │
+   Build & Deploy
+        │
+        ▼
+   Web Application
 ```
 
-## Live Demo
-
-**CloudFront:**  
-https://dystwji8iud9p.cloudfront.net/
-
-**S3 Website:**  
-http://premjha-portfolio-2026.s3-website-us-east-1.amazonaws.com
+## Technologies
+- AWS EC2
+- Jenkins
+- Git & GitHub
+- HTML, CSS, JavaScript
 
 ## Author
-
-**Prem Jha**  
-Aspiring Cloud & DevOps Engineer
+**Prem Jha**git piu
